@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {box-sizing: border-box;}
+* {border: none;}
+img {display: block; max-width: 100%;}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) 
+{list-style: none;}
+menu, ol, ul{padding-left: 0;}
+article ol, article ul { list-style-position: inside;}
+a {
+    /* Places underlines below the descenders */
+    text-underline-position: under;
+    /* Sets the thickness as a percentage of the font size */
+    text-decoration-thickness: 8;
+}
+
+
+   /* Page specific styling*/
+
+body{
+    padding-left: 50px;
+    padding-right: 2em;
+    max-width: 1000px;
+}
+h1{
+    position: relative;
+    background-image:url("./assets/images/head_bg.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 3em;
+    font-family: 'Concert One', sans-serif;
+    color: #ff99009d;
+    left:3em;
+    margin: 0.1em;
+    padding-left: .8em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+h2{
+    position: relative;
+    font-size: 2em;
+    font-family: 'Concert One', sans-serif;
+    color: #72540194;
+    margin: 0%;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+
+
+li{
+    position: relative;
+    font-size: 1.1em;
+    font-family: Arial, sans-serif;
+    left:4em;
+    background-image:url("./assets/images/bullet.png");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    margin: 0.2em;
+    padding-top: 0em;
+    padding-bottom: 0.3em;
+    padding-left: 2em;
+}
+
+.entry{
+    position: relative;
+    margin:2px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom right, rgb(240, 245, 184), white, white);
+}
+
+.date{
+    position: relative;
+    font-size: 1.2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left:0em;
+    background-image:url("./assets/images/date_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20em;
+    margin: 0.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2.5em;
+}
+
+.org{
+    position: relative;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    left:5%;
+    background-image:url("./assets/images/org_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    padding-left: 50px; 
+}
+
+.job_title{
+    position: relative;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    left:5%;
+    margin: 0.1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    padding-left: 50px; 
+}
+
+
+.job_disc{
+    position: relative;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    left:5%;
+    margin: 0.1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    padding-left: 50px; 
+    padding-right: 100px;
+}
+.project_disc{
+
+    font-weight: normal;
+}
